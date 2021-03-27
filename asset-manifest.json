@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/biathlon/static/css/main.490e0491.chunk.css",
+    "main.js": "/biathlon/static/js/main.9f6b9c2d.chunk.js",
+    "main.js.map": "/biathlon/static/js/main.9f6b9c2d.chunk.js.map",
+    "runtime-main.js": "/biathlon/static/js/runtime-main.0bd5fbce.js",
+    "runtime-main.js.map": "/biathlon/static/js/runtime-main.0bd5fbce.js.map",
+    "static/css/2.70c372c2.chunk.css": "/biathlon/static/css/2.70c372c2.chunk.css",
+    "static/js/2.4c11b6c2.chunk.js": "/biathlon/static/js/2.4c11b6c2.chunk.js",
+    "static/js/2.4c11b6c2.chunk.js.map": "/biathlon/static/js/2.4c11b6c2.chunk.js.map",
+    "index.html": "/biathlon/index.html",
+    "static/css/2.70c372c2.chunk.css.map": "/biathlon/static/css/2.70c372c2.chunk.css.map",
+    "static/css/main.490e0491.chunk.css.map": "/biathlon/static/css/main.490e0491.chunk.css.map",
+    "static/js/2.4c11b6c2.chunk.js.LICENSE.txt": "/biathlon/static/js/2.4c11b6c2.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0bd5fbce.js",
+    "static/css/2.70c372c2.chunk.css",
+    "static/js/2.4c11b6c2.chunk.js",
+    "static/css/main.490e0491.chunk.css",
+    "static/js/main.9f6b9c2d.chunk.js"
+  ]
+}
