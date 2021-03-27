@@ -15,7 +15,7 @@ const App: FC = () => {
   };
 
   const onHits = () => {
-    setBiathletes([...biathletes].sort((a, b) => (a.hits > b.hits ? 1 : -1)));
+    setBiathletes([...biathletes].sort((a, b) => (a.hits > b.hits ? -1 : 1)));
   };
 
   const onRate = () => {
@@ -23,37 +23,38 @@ const App: FC = () => {
   };
 
   return (
-    <div>
-      <h1>Test task!</h1>
+    <div className="container">
+      <h1 className="title">Test task!</h1>
       <input
+        className="search"
         type="text"
         onChange={(e) => setName(e.target.value)}
         value={name}
       />
-      <div>
-        <button type="button" onClick={onPlace}>
+      <div className="btn__wrapper">
+        <button className="btn" type="button" onClick={onPlace}>
           Place
         </button>
-        <button type="button" onClick={onName}>
+        <button className="btn" type="button" onClick={onName}>
           Name
         </button>
-        <button type="button" onClick={onHits}>
+        <button className="btn" type="button" onClick={onHits}>
           Hits
         </button>
-        <button type="button" onClick={onRate}>
+        <button className="btn" type="button" onClick={onRate}>
           Rate of fire
         </button>
       </div>
-      <ul>
+      <ul className="biathletes__list">
         {biathletes
           .filter((item) =>
             item.name.toLowerCase().includes(name.toLowerCase()),
           )
           .map((biathlete: Biathlete) => (
-            <li key={biathlete.id}>
-              <div>{biathlete.place}</div>
-              <div>{biathlete.name}</div>
-              <div>
+            <li className="biathlete" key={biathlete.id}>
+              <div className="place">{biathlete.place}</div>
+              <div className="name">{biathlete.name}</div>
+              <div className="info">
                 <div>Hits: {biathlete.hits}%</div>
                 <div>Rate of fire: {biathlete.rateOfFire} sec</div>
               </div>
